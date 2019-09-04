@@ -1,7 +1,7 @@
 
 # Class-learning
 
-task_learning_gh.m - the file with the learning algorithm
+task_learning_gh.m - the file with the classification based learning algorithm and the call of the optimization algorithm
 
 cost_trajektorija_gh.m - the cost function for trajectory optimization
 
