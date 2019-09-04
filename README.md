@@ -10,17 +10,16 @@ cmaes_v2.m - CMA-ES algorithm implementation
 
 ## Directories
 
-folders demo1, demo2, demo3... contain the input data for the algorithm
+demo1, demo2, demo3...demoN contain the input data for the algorithm
 
 - script(1)(2)(3).txt - contain the demonstrated trajectories by kinesthetic
-                      teaching
-                       
+                      teaching               
 - TauN(1)(2)(3).txt - contain the object positions and orientations before
                     kinesthetic teaching (initial configuration)
-                    
+ 
+ demoN/konfigN/
 - scriptX.txt - contain the initial position of the robot for a new
               situation
-              
 - TauNX.txt - contains the initial position of the objects for a new
             situation
 
@@ -28,5 +27,5 @@ folders demo1, demo2, demo3... contain the input data for the algorithm
 ## Dependencies
 
 Robotics toolbox for Matlab - http://petercorke.com/wordpress/toolboxes/robotics-toolbox,
-                              P.I. Corke, “Robotics, Vision & Control”, Springer 2017, ISBN 978-3-319-54413-7
+                            - P.I. Corke, “Robotics, Vision & Control”, Springer 2017, ISBN 978-3-319-54413-7
 
