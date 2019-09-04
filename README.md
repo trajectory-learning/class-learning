@@ -13,15 +13,15 @@ cmaes_v2.m - CMA-ES algorithm implementation
 demo1, demo2, demo3...demoN contain the input data for the algorithm, this data is gathered by the experimental setup in the teaching process
 
 - script(1)(2)(3).txt - contain the demonstrated trajectories by kinesthetic
-                        teaching               
-- TauN(1)(2)(3).txt - contain the object positions and orientations before
+                        teaching, sampled from the UR robot
+- TauN(1)(2)(3).txt - contain the object positions and orientations (X,Y,W-per row/object) before
                       kinesthetic teaching (initial configuration) captured by the Kinect sensor
  
  demoN/konfigN/
-- scriptX.txt - contain the initial position of the robot for a new
+- scriptX.txt - contain the initial position of the UR robot for a new
                 situation
 - TauNX.txt - contains the initial position of the objects for a new
-              situation
+              situation (X,Y,W-per row/object)
 
 
 ## Dependencies
