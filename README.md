@@ -1,11 +1,13 @@
 
 # Class-learning
 
-task_learning_gh.m - the file with the classification based learning algorithm and the call of the optimization algorithm
+task_learning_gh.m - it contains the classification based learning algorithm and the call of the optimization algorithm
 
 cost_trajektorija_gh.m - the cost function for trajectory optimization
 
 cmaes_v2.m - CMA-ES algorithm implementation
+
+attractor_point_dmp - DMP approximation 
 
 
 ## Directories
@@ -30,6 +32,12 @@ demo1, demo2, demo3...demoN - contain the input data for the algorithm (demonstr
 - demo3 - two position constraints with one obstacle
 - demo4 - three position constraints
 - demo5 - sweeping task, four position constraints one obstacle
+
+## Usage
+
+Run the task_learning_gh.m script with the specified $ demo variable, depending on which example wants to be run
+When optimization stops, run the attractor_points_dmp.m script to obtain the smooth robot trajectory. 
+
 
 ## Dependencies
 
