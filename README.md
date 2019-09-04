@@ -16,13 +16,20 @@ demo1, demo2, demo3...demoN contain the input data for the algorithm, this data 
                         teaching, sampled from the UR robot
 - TauN(1)(2)(3).txt - contain the object positions and orientations (X,Y,W-per row/object) before
                       kinesthetic teaching (initial configuration) captured by the Kinect sensor
- 
+        
  demoN/konfigN/
 - scriptX.txt - contain the initial position of the UR robot for a new
                 situation
 - TauNX.txt - contains the initial position of the objects for a new
               situation (X,Y,W-per row/object)
 
+## Examples
+
+- demo1 - two position constraints
+- demo2 - four position constraints with one obstacle
+- demo3 - two position constraints with one obstacle
+- demo4 - three position constraints
+- demo5 - sweeping task, four position constraints one obstacle
 
 ## Dependencies
 
