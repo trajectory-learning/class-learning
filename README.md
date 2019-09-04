@@ -35,7 +35,7 @@ demo1, demo2, demo3...demoN - contain the input data for the algorithm (demonstr
 
 ## Usage
 
-Run the task_learning_gh.m script with the specified $ demo variable, depending on which example wants to be run
+Run the task_learning_gh.m script with the specified *demo* variable, depending on which example wants to be run
 When optimization stops, run the attractor_points_dmp.m script to obtain the smooth robot trajectory. 
 
 
