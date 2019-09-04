@@ -5,7 +5,7 @@ task_learning_gh.m - it contains the classification based learning algorithm and
 
 cost_trajektorija_gh.m - the cost function for trajectory optimization
 
-cmaes_v2.m - CMA-ES algorithm implementation
+cmaes_v2.m - CMA-ES algorithm implementation (http://cma.gforge.inria.fr/cmaes_sourcecode_page.html)
 
 attractor_point_dmp - DMP approximation 
 
