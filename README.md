@@ -10,7 +10,7 @@ cmaes_v2.m - CMA-ES algorithm implementation
 
 ## Directories
 
-demo1, demo2, demo3...demoN contain the input data for the algorithm, this data is gathered by the experimental setup in the teaching process
+demo1, demo2, demo3...demoN contain the input data for the algorithm (demonstrations), this data is gathered by the experimental setup in the teaching process
 
 - script(1)(2)(3).txt - contain the demonstrated trajectories by kinesthetic
                         teaching, sampled from the UR robot
