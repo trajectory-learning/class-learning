@@ -1,6 +1,8 @@
 
 # Class-learning
 
+Implementation of the experiments from the paper: ********
+
 task_learning_gh.m - it contains the classification based learning algorithm and the call of the optimization algorithm
 
 cost_trajektorija_gh.m - the cost function for trajectory optimization
